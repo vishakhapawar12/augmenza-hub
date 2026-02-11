@@ -192,7 +192,7 @@ export default function HomePage() {
               />
               
               {/* Logo Container */}
-              <div className="relative z-10 p-12 bg-deep-navy/50 backdrop-blur-sm rounded-full border border-white/10 shadow-2xl">
+              <div className="relative z-10 p-12 bg-deep-navy/50 backdrop-blur-sm rounded-[50%_45%] border border-white/10 shadow-2xl">
                 <Image 
                   src={COMPANY_INFO.logoUrl}
                   alt="Augmenza Tech Logo"
