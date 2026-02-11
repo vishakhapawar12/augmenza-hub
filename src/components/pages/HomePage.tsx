@@ -31,6 +31,13 @@ const COMPANY_INFO = {
   }
 };
 
+// Component to render company name with red "Augmenza Tech" text
+const CompanyNameDisplay = () => (
+  <span>
+    <span className="text-red-500">Augmenza Tech</span> delivers exceptional IT talent solutions with precision and reliability. We connect businesses with the right professionals to drive innovation and growth.
+  </span>
+);
+
 const SERVICES_DATA = [
   {
     id: "01",
@@ -151,7 +158,7 @@ export default function HomePage() {
             </h1>
 
             <p className="font-paragraph text-lg md:text-xl text-muted-grey max-w-2xl mb-12 leading-relaxed border-l-2 border-accent-gold/30 pl-6">
-              {COMPANY_INFO.description}
+              <CompanyNameDisplay />
             </p>
 
             <div className="flex flex-col sm:flex-row gap-6">
